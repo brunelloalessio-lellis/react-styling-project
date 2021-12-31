@@ -29,7 +29,8 @@ const CourseInput = (props) => {
           color: !isValid ? 'red':'initial'
         }}>Course Goal</label>
         <input style={{
-          borderColor: !isValid ? 'red':'initial'
+          borderColor: !isValid ? 'red':'initial',
+          backgroundColor: !isValid ? 'salmon':'initial',
         }} type="text" onChange={goalInputChangeHandler} />
       </div>
       <Button type="submit">Add Goal</Button>
